@@ -2,13 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-.schoolbell{
+.schoolbell {
     font-family: var(--font-schoolbell);
 }
-.bordertext{
+
+.bordertext {
     text-shadow: 1px 0 #000000, -1px 0 #000000, 0 1px #000000, 0 -1px #000000,
-             1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+        1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
 }
-.fontxbold{
-font-size: 3.5rem;
+
+.fontxbold {
+    font-size: 4.5rem;
+}
+
+/* .bgimg{
+    background: url('./shape7.png'); */
+/* } */
+.trans{
+    transform: translate(-50%, -50%);
 }
